@@ -1,0 +1,78 @@
+body.theme-velvet {
+    --main-background-color: #f5f5f5;
+    --menu-background-color: #f5f5f5;
+    --active-item-background-color: rgba(0,0,0,0.075);
+    --input-background-color: #f5f5f5;
+    --primary-button-background-color: #9a637c;
+    --primary-button-border-color: #9a637c;
+    --header-background-color: #f5f5f5;
+    --button-background-color: #f5f5f5;
+    --button-border-color: transparent;
+    --main-border-color: transparent;
+    --scrollbar-border-color: transparent;
+    --accented-background-color: #f0f0f0;
+    --link-color: #9a637c;
+    --main-text-color: #282828;
+    --modal-background-color: #f0f0f0;
+}
+
+.theme-velvet ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.theme-velvet ::-webkit-scrollbar-thumb {
+    border-radius: 2em;
+    background-color: rgba(0,0,0,0.075);
+}
+
+.theme-velvet .gutter {
+    background-color: transparent;
+}
+
+body.theme-velvet h1 {
+    font-size: 1.35rem;
+}
+
+body.theme-velvet h2 {
+    font-size: 1.2rem;
+}
+
+body.theme-velvet h3 {
+    font-size: 1.1rem;
+}
+
+.theme-velvet .ck-content hr {
+    border: none;
+    height: 1px;
+}
+
+.theme-velvet textarea:focus, .theme-velvet input:focus{
+    outline: none;
+}
+
+.theme-velvet .todo-list__label {
+    margin-bottom: 0;
+}
+
+.theme-velvet .ck-content .todo-list .todo-list__label > input[checked]::before {
+    background-color: var(--link-color);
+    border: 1px solid var(--link-color);
+    border-radius: 2em;
+}
+
+.theme-velvet .ck-content .todo-list .todo-list__label > input:before {
+  border: 1px solid var(--link-color);
+    border-radius: 2em;
+}
+
+.theme-velvet .ck-content pre {
+    border: none;
+    border-radius: 0;
+    background-color: #ececec;
+}
+
+.theme-velvet .calendar-widget .calendar-date, .theme-velvet .calendar-widget .calendar-week span {
+    font-size: 14px;
+    font-weight: 400;
+}
