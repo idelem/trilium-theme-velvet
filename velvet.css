@@ -32,14 +32,17 @@ body.theme-velvet {
 
 body.theme-velvet h1 {
     font-size: 1.35rem;
+    margin: 1em 0;
 }
 
 body.theme-velvet h2 {
     font-size: 1.2rem;
+    margin: 1em 0;
 }
 
 body.theme-velvet h3 {
     font-size: 1.1rem;
+    margin: 1em 0;
 }
 
 .theme-velvet .ck-content hr {
@@ -75,4 +78,8 @@ body.theme-velvet h3 {
 .theme-velvet .calendar-widget .calendar-date, .theme-velvet .calendar-widget .calendar-week span {
     font-size: 14px;
     font-weight: 400;
+}
+
+.theme-velvet blockquote {
+    color: #8c8c8c;
 }
